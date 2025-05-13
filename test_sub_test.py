@@ -8,7 +8,7 @@ from sklearn.preprocessing import StandardScaler
 # dt_model = pickle.load(open('Decision_Tree.pkl', 'rb'))
 # rf_model = pickle.load(open('Random_Forest.pkl', 'rb'))
 # mlp_model = pickle.load(open('MLP.pkl', 'rb'))
-boosted_model = pickle.load(open('Boosted_model.pkl', 'rb'))
+boosted_model = pickle.load(open('Boosted_Model.pkl', 'rb'))
 
 # Define the function to preprocess input data
 def preprocess_data1(new_data1):
