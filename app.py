@@ -153,7 +153,7 @@ def main():
      sick_mapping = {'Yes': 't', 'No': 'f'}
      sick= sick_mapping.get(sick,sick)
 
-     psych = st.radio("Do you psychological effects of thyroid conditions?", ['Yes', 'No'], index=None)
+     psych = st.radio("Do you experience psychological effects of thyroid conditions?", ['Yes', 'No'], index=None)
      psych_mapping = {'Yes': 't', 'No': 'f'}
      psych = psych_mapping.get(psych,psych)
 
