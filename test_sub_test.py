@@ -5,9 +5,9 @@ import pickle
 from sklearn.preprocessing import StandardScaler
 
 # Load the trained model
-dt_model = pickle.load(open('Decision_Tree.pkl', 'rb'))
-rf_model = pickle.load(open('Random_Forest.pkl', 'rb'))
-mlp_model = pickle.load(open('MLP.pkl', 'rb'))
+# dt_model = pickle.load(open('Decision_Tree.pkl', 'rb'))
+# rf_model = pickle.load(open('Random_Forest.pkl', 'rb'))
+# mlp_model = pickle.load(open('MLP.pkl', 'rb'))
 boosted_model = pickle.load(open('Boosted_model.pkl', 'rb'))
 
 # Define the function to preprocess input data
